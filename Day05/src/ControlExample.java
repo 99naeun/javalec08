@@ -3,7 +3,7 @@
 // 1. 조건제어,  2. 반복제어
 public class ControlExample {
 	
-	public static void mai(String args[]) {
+	public static void main(String args[]) {
 		
 		// 1. 조건제어는 
 		// 1-1 if
