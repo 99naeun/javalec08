@@ -4,6 +4,18 @@ public class BreakContinueEx {
 	
 	public static void main(String args[]) {
 		
+		
+		byte b =(byte)128;
+		System.out.println(b); //최솟값을 출력
+		System.out.println(~b); //최댓값을 출력
+		
+		byte c = 1; 
+		System.out.println((byte)(c<<7)); // => 10000000
+		System.out.println(~(c<<7)); // => 00000001
+		
+		byte d = -1; // 1111 1111
+		System.out.println((byte)(d>>>1)); // 0111 1111
+		
 		int command = 0;
 		
 		for(;;) { //무한루프
@@ -20,9 +32,7 @@ public class BreakContinueEx {
 		}// for loop문 끝
 				//<--
 			System.out.println("프로그램 종료");
-			
-			
-			
+					
 	}
 
 }
