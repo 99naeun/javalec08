@@ -5,6 +5,7 @@ public class ScopeExample {
 
 	public static void main(String args[]) {
 		String name = "이종석"; //지역변수
+		int x = 10;
 		System.out.println(name);
 //		{
 //			int age = 10;
@@ -13,7 +14,7 @@ public class ScopeExample {
 		printName();
 		
 		int i;
-		for(int i = 0; i < 10; i++) { //선생님꺼 보고 뭐가 틀렸는지 비교하기
+		for(i = 0; i < 10; i++) { //선생님꺼 보고 뭐가 틀렸는지 비교하기
 			
 		}
 		System.out.println(i);
