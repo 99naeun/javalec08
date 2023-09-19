@@ -19,12 +19,16 @@ public class Geforce {
 	//1.리턴타입 없읍
 	//2.클래스명과 생성자(메서드)명 동일
 	public Geforce() {
-		modelName = "하악하악";
-		price = 1000;
+		super();
+//		modelName = "하악하악";
+//		price = 1000;
 	}
 	
 	public Geforce(String model) {
 		modelName = model;
+		price = 10;
+		final int a;
+		a = 10;
 	}
 	
 	// 생성자메서드
