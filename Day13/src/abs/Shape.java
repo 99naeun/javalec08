@@ -9,6 +9,12 @@ public abstract class Shape {
 	public void printMyType() {
 		System.out.println(type);
 	}
+	
+	//final메서드는 상속은 가능/ 제정의(override)는 불가
+	public final void 나제정의안돼() {
+		System.out.println("하악하악");
+	}
 
+	//넓이구하기()메서드는 반드시 Override하도록 강제
 	public abstract void 넓이구하기();
 }
