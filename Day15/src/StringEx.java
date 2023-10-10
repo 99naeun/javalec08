@@ -26,5 +26,8 @@ public class StringEx {
 		System.out.println("String : "+name);
 		System.out.println("StringBuffer : "+nameBuff);
 		System.out.println("StringBuilder : "+nameBuild);
+		
+		//문자열이 많아질수록/ 연산이 많아질수록 성능은
+		//StringBuilder > StringBuffer >>> 4차원의 벽 >>> String
 	}
 }
